@@ -1,4 +1,5 @@
 import disciplina.*
+import elementos.*
 
 
 object victoria {
@@ -12,7 +13,7 @@ object victoria {
 
 
 method presupuestoPropio() {
-  return (self.cantidadDeEntrenadores() * comiteOlimpico.valorCuota()) + elemento.costoPara(atleta)
+  return (self.cantidadDeEntrenadores() * comiteOlimpico.valorCuota()) + elemento.costoPara(self)
 }
 
 method presupuestoTotal(){
