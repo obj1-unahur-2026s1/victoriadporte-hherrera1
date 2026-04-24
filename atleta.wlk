@@ -24,6 +24,11 @@ method cantidadDeEntrenadores(){
    return cantidadEntrenadores
 }
 
+method edad(){
+  return edad
+}
 
-
+method altura(){
+  return altura
+}
 }
