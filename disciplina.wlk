@@ -25,10 +25,9 @@ object judo {
 
 }
 object comiteOlimpico {
-    var valorCuota = 50
 
     method valorCuota(){
-        return valorCuota
+        return 3000
     }
 
 
