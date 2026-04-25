@@ -1,9 +1,16 @@
+import atleta.*
 import example.pepita
 
-describe "group of tests for pepita" {
+describe "group of tests for victoria" {
 
-  test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+  test "edad de victoria 20" {
+    assert.equals(20, victoria.edad())
   }
 
+equals --> valor (me devuelve un valor)
+that  
+notthat
+
+
 }
+
